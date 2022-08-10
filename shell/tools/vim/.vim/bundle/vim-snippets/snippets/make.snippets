@@ -1,0 +1,31 @@
+# base
+snippet base
+	.PHONY: clean, mrproper
+	CC = g++
+	CFLAGS = -g 
+
+	all: clean $1
+
+	%.o: %.c
+		$(CC) $(CFLAGS) -c -o $@ $<
+	
+	${1:out}: $1.o
+		$(CC) $(CFLAGS) -o $@ $+
+
+	clean:
+		rm -f *.o
+
+	mrproper: clean
+		rm -f $1
+# add
+snippet add
+	${1:target}: ${2:dependencies}
+		$(CC) $(CFLAGS) -o $@ $+
+# print
+snippet print
+	print-%: ; @echo $*=$($*)
+# ifeq
+snippet ifeq
+	ifeq (${1:cond0}, ${2:cond1})
+		${0}
+	endif

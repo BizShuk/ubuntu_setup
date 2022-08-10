@@ -1,0 +1,30 @@
+[submodule "vim-Dockerfile"]
+	path = shell/tools/vim/.vim/bundle/Dockerfile.vim
+	url = https://github.com/ekalinin/Dockerfile.vim.git
+[submodule "vim-Nerdtree"]
+	path = shell/tools/vim/.vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vim-tagbar"]
+	path = shell/tools/vim/.vim/bundle/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "vim-ultisnips"]
+	path = shell/tools/vim/.vim/bundle/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
+[submodule "vim-powerline"]
+	path = shell/tools/vim/.vim/bundle/vim-powerline
+	url = https://github.com/Lokaltog/vim-powerline.git
+[submodule "vim-go"]
+	path = shell/tools/vim/.vim/bundle/vim-go
+	url = https://github.com/fatih/vim-go
+[submodule "libgit2"]
+	path = pkg/libgit2
+	url = https://github.com/libgit2/libgit2.git
+[submodule "shell/tools/vim/.vim/bundle/vim-snippets"]
+	path = shell/tools/vim/.vim/bundle/vim-snippets
+	url = https://github.com/BizShuk/vim-snippets.git
+[submodule "shell/tools/vim/.vim/bundle/vim-autoformat"]
+	path = shell/tools/vim/.vim/bundle/vim-autoformat
+	url = https://github.com/Chiel92/vim-autoformat
+[submodule "shell/tools/vim/.vim/bundle/vim-jsx"]
+	path = shell/tools/vim/.vim/bundle/vim-jsx
+	url = https://github.com/mxw/vim-jsx.git
