@@ -1,6 +1,7 @@
 #!/bin/bash
 
-source ./bash_function.sh
+DIR=$(dirname $0)
+source ${DIR}/bash_function.sh
 path=$(get_script-path)
 
 
